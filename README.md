@@ -1,1 +1,1 @@
-# math-magicians-m3
+# math-magicians
