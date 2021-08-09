@@ -6,12 +6,12 @@ body {
   'Segoe UI',
   'Roboto',
   'Oxygen',
-    'Ubuntu',
-    'Cantarell',
-    'Fira Sans',
-    'Droid Sans',
-    'Helvetica Neue',
-    sans-serif;
+  'Ubuntu',
+  'Cantarell',
+  'Fira Sans',
+  'Droid Sans',
+  'Helvetica Neue',
+  sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -23,5 +23,5 @@ code {
   Monaco,
   Consolas,
   'Courier New',
-    monospace;
+  monospace;
 }
