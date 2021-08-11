@@ -25,7 +25,7 @@ class Calculator extends React.Component {
     return (
       <div className="calculator-wrap">
         <div className="calculator">
-          <Result result={!total ? next : total} />
+          <Result result={!next ? total : next} />
           <Buttons onButtonClick={this.handleClick} />
         </div>
       </div>
