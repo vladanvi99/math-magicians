@@ -2,14 +2,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-class Result extends React.Component {
-  render() {
-    const { result } = this.props;
-    return (
-      <p className="result">{result}</p>
-    );
-  }
-}
+const Result = (props) => {
+  const { result } = props;
+  return (
+    <p className="result">{result}</p>
+  );
+};
 
 Result.defaultProps = {
   result: '0',
