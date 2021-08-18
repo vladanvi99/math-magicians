@@ -1,0 +1,19 @@
+.home-section {
+  max-width: 1200px;
+  margin: auto;
+  padding: 80px 15px;
+}
+
+.home-section h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #858694;
+  margin-bottom: 50px;
+}
+
+.home-section p {
+  font-size: 20px;
+  line-height: 28px;
+  color: #333;
+  margin-bottom: 30px;
+}

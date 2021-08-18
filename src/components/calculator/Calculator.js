@@ -20,6 +20,7 @@ const Calculator = () => {
   const { total, next } = info;
   return (
     <div className="calculator-wrap">
+      <h2>Lets do some math!</h2>
       <div className="calculator">
         <Result result={!next ? total : next} />
         <Buttons onButtonClick={handleClick} />
