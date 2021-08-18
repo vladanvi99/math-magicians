@@ -1,0 +1,19 @@
+.quote-section {
+  max-width: 1200px;
+  margin: auto;
+  padding: 80px 15px;
+  padding-top: 130px;
+}
+
+.quote-section p {
+  font-size: 32px;
+  line-height: 42px;
+  color: #333;
+  font-weight: 500;
+}
+
+.quote-section p span {
+  font-size: 24px;
+  color: #888;
+  margin-left: 40px;
+}

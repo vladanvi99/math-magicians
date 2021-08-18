@@ -1,15 +1,22 @@
 .calculator-wrap {
+  max-width: 1200px;
+  margin: auto;
   width: 100%;
-  min-height: 100vh;
-  padding: 40px 15px;
+  padding: 80px 15px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  gap: 80px;
+}
+
+.calculator-wrap h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #858694;
 }
 
 .calculator {
   width: 100%;
-  max-width: 300px;
+  max-width: 500px;
   background-color: #ccc;
 }
 
@@ -20,14 +27,14 @@
 .calculator .result {
   width: 100%;
   text-align: right;
-  padding: 12px 4px;
+  padding: 14px 8px;
   background-color: #858694;
   border: none;
   outline: none;
   color: #fff;
   display: block;
   margin-bottom: 2px;
-  font-size: 16px;
+  font-size: 22px;
 }
 
 .calculator .buttons-row {
@@ -38,13 +45,18 @@
 
 .calculator .uni-button {
   width: 25%;
-  padding: 14px 0;
-  font-size: 10px;
+  padding: 20px 0;
+  font-size: 12px;
   background-color: #e0e0e0;
   border: none;
   outline: none;
   cursor: pointer;
   display: block;
+}
+
+.calculator .uni-button:hover {
+  background-color: #eee;
+  transition: 0.3s;
 }
 
 .calculator .orange-button {

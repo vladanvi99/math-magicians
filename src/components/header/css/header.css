@@ -1,0 +1,38 @@
+header {
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.5);
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1440px;
+  margin: auto;
+  padding: 10px 15px;
+}
+
+header nav .logo {
+  font-size: 42px;
+  color: #f5913e;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+header nav ul li a {
+  font-size: 18px;
+  line-height: 26px;
+  padding: 0 15px;
+  text-decoration: none;
+  color: #858694;
+}
+
+header nav ul li a:hover {
+  color: #f5913e;
+  transition: 0.3s;
+}
