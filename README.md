@@ -31,8 +31,8 @@ $ npm start
 
 ## Live Demo
 
-Heroku: https://math-magician-microverse.herokuapp.com/
-Netlifly: 
+- Heroku: https://math-magician-microverse.herokuapp.com/
+- Netlifly: https://math-magican-microverse-360d8e.netlify.app/
 
 ## Authors
 
