@@ -31,7 +31,8 @@ $ npm start
 
 ## Live Demo
 
-Live will be soon.
+Heroku: https://math-magician-microverse.herokuapp.com/
+Netlifly: 
 
 ## Authors
 
